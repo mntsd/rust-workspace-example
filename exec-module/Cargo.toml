@@ -1,0 +1,8 @@
+[package]
+name = "exec-module"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+lib1-module = { path = "../lib1-module" }
+lib2-module = { path = "../lib2-module" }
